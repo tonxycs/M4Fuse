@@ -24,7 +24,7 @@ def main():
                         help='Path to train dataset (for independent mode)')
     parser.add_argument('--valid_dir', type=str, default='./Data/BraTS2021_Valid',
                         help='Path to validation dataset (for independent mode)')
-    parser.add_argument('--result_dir', type=str, default='./BarTS2021-M4FuseTiny',
+    parser.add_argument('--result_dir', type=str, default='./BarTS2021-M4Fuse',
                         help='Directory to save results')
     
 
