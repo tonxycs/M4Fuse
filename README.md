@@ -25,4 +25,4 @@ model = M4Fuse(
 
  4.Training method: 1. Train-Valid-Eval 2. 5-Fold CE.
 
- Notes: For urgent citation, usage, or further assistance, please feel free to contact me [tonxycs@gmail.com] without any hesitation. You are very welcome!
+# Notes: For urgent citation, usage, or further assistance, please feel free to contact me [tonxycs@gmail.com] without any hesitation. You are very welcome!
