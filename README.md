@@ -1,19 +1,5 @@
  1.About M4Fuse:
 
-mamba_ssm = 2.2.2
-
-torch = 2.0.1+cu118
-
-torchvision = 0.15.2+cu118
-
-timm = 1.0.19
-
-monai = 1.3.0
-
-nibabel = 5.2.1
-
-scipy = 1.10.1
-
 # Dataset
 ![image](https://github.com/tonxycs/M4Fuse/blob/main/Vis/dataset.png)
 
@@ -38,5 +24,21 @@ model = M4Fuse(
  3.Seeing log -> tail -f ./log/train.log
 
  4.Training method: 1. Train-Valid-Eval 2. 5-Fold CE.
+
+# PIP
+
+mamba_ssm = 2.2.2
+
+torch = 2.0.1+cu118
+
+torchvision = 0.15.2+cu118
+
+timm = 1.0.19
+
+monai = 1.3.0
+
+nibabel = 5.2.1
+
+scipy = 1.10.1
 
 *Notes: For urgent citation, usage, or further assistance, please feel free to contact me [tonxycs@gmail.com] without any hesitation. You are very welcome!*
