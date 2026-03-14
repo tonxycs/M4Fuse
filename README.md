@@ -1,4 +1,4 @@
-## 1.About M4Fuse:
+ 1.About M4Fuse:
 
 $
 mamba_ssm = 2.2.2
@@ -25,10 +25,13 @@ model = M4Fuse(
 $
 
 
-# 2.According to Ours ->  bash ./Run_config.sh
+ 2.According to Ours ->  bash ./Run_config.sh 
 
-# 3.Seeing log -> tail -f ./log/train.log
+ --running 2019 dataset, you can python T19.py and it is ok
+ --running 2021 dataset, you need to python T21.py combined with Eval.py (by the best weight /.pth)
 
-# 4.Training method: 1. Train-Valid-Eval 2. 5-Fold CE.
+ 3.Seeing log -> tail -f ./log/train.log
 
-# Notes: For urgent citation, usage, or further assistance, please feel free to contact me [tonxycs@gmail.com] without any hesitation. You are very welcome!
+ 4.Training method: 1. Train-Valid-Eval 2. 5-Fold CE.
+
+ Notes: For urgent citation, usage, or further assistance, please feel free to contact me [tonxycs@gmail.com] without any hesitation. You are very welcome!
