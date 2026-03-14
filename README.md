@@ -60,6 +60,7 @@ BarTS2021/
 
 # Models
 @ **e.g.Tiny-0.29M and Spe. Seeing M4Fuse.py**
+
 $
 model = M4Fuse(
     num_classes=4,
