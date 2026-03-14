@@ -31,4 +31,4 @@ $
 
 ## 4.Training method: 1. Train-Valid-Eval 2. 5-Fold CE.
 
-## Notes: Due to space limitations, the Metrics (e.g. 95% confidence interval ...) have not been fully included in the Paper and  All .pth will open later (2026)
+## Notes: For urgent citation, usage, or further assistance, please feel free to contact me [tonxycs@gmail.com] without any hesitation. You are very welcome!
