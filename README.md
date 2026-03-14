@@ -41,4 +41,4 @@ nibabel = 5.2.1
 
 scipy = 1.10.1
 
-*Notes: For urgent citation, usage, or further assistance, please feel free to contact me [tonxycs@gmail.com] without any hesitation. You are very welcome!*
+***Notes:** For urgent citation, usage, or further assistance, please feel free to contact me [tonxycs@gmail.com] without any hesitation. You are very welcome!*
