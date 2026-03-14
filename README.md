@@ -12,7 +12,7 @@ From A100
 Seeing requirement.txt (!pip install -r requirements.txt)
 $
 
-# e.g 
+# e.g. 
 @ **Tiny-0.29M and Spe. Seeing M4Fuse.py**
 
 $
@@ -25,10 +25,10 @@ model = M4Fuse(
 $
 
 
-## 2.According to Ours ->  bash ./Run_config.sh
+# 2.According to Ours ->  bash ./Run_config.sh
 
-## 3.Seeing log -> tail -f ./log/train.log
+# 3.Seeing log -> tail -f ./log/train.log
 
-## 4.Training method: 1. Train-Valid-Eval 2. 5-Fold CE.
+# 4.Training method: 1. Train-Valid-Eval 2. 5-Fold CE.
 
-## Notes: For urgent citation, usage, or further assistance, please feel free to contact me [tonxycs@gmail.com] without any hesitation. You are very welcome!
+# Notes: For urgent citation, usage, or further assistance, please feel free to contact me [tonxycs@gmail.com] without any hesitation. You are very welcome!
