@@ -12,7 +12,7 @@ From A100
 Seeing requirement.txt (!pip install -r requirements.txt)
 $
 # Dataset
-* BarTS2019:(HGG/LGG)
+*BarTS2019:(HGG/LGG)*
 
 BarTS2019/
 ├── processed/
@@ -38,7 +38,7 @@ BarTS2019/
 │   ├── ...
 
 
-* BarTS2021: 
+*BarTS2021:* 
 
 BarTS2021/
 ├── processed/
