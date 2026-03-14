@@ -12,7 +12,7 @@ From A100
 Seeing requirement.txt (!pip install -r requirements.txt)
 $
 
-# e.g. 
+# Models
 @ **Tiny-0.29M and Spe. Seeing M4Fuse.py**
 
 
@@ -25,7 +25,7 @@ model = M4Fuse(
 ).to(config['device'])
 $
 
-
+# Use
  2.According to Ours ->  bash ./Run_config.sh 
 
  --running 2019 dataset, you can python T19.py and it is ok
