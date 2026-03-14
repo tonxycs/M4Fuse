@@ -25,9 +25,9 @@ model = M4Fuse(
 $
 
 
-## 2.According to Ours ->  bash ./22666_code/Run_config.sh
+## 2.According to Ours ->  bash ./Run_config.sh
 
-## 3.Seeing log -> tail -f ./22666_code/log/train.log
+## 3.Seeing log -> tail -f ./log/train.log
 
 ## 4.Training method: 1. Train-Valid-Eval 2. 5-Fold CE.
 
