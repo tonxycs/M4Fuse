@@ -28,6 +28,7 @@ $
  2.According to Ours ->  bash ./Run_config.sh 
 
  --running 2019 dataset, you can python T19.py and it is ok
+ 
  --running 2021 dataset, you need to python T21.py combined with Eval.py (by the best weight /.pth)
 
  3.Seeing log -> tail -f ./log/train.log
