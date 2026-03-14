@@ -357,12 +357,12 @@ def save_eval_results(eval_metrics, case_records, metrics_samples, et_config, ch
 def main():
 
     config = {
-        'full_data_dir': './22666_code/Data/BraTS2021', 
+        'full_data_dir': './Data/BraTS2021', 
         'best_model_path': '',   # from the best valid epochs from T21.py output.
         'result_save_dir': '',
         'split_ratio': 0.2,  
         'split_seed': 42,  
-        'split_cache_dir': '/root/autodl-fs/data/dataset_splits',  
+        'split_cache_dir': './data/dataset_splits',  
         'target_size': (64, 128, 128), 
         'batch_size': 2,  
         'num_workers': 8, 
@@ -402,29 +402,10 @@ def main():
     model = M4Fuse(
         num_classes=4,
         input_channels=4,
-        c_list=[24, 48, 72, 96, 144, 192],   # Small
+        c_list=[24, 48, 72, 96, 144, 192],   # e.g. Small  Base: -> 256
         modalities=1
     ).to(config['device'])
     
-    
-    # model = NormalU_Net(
-    #     init_channels=4,          
-    #     n_channels=24,            
-    #     class_nums=4,            
-    #     depths_unidirectional="small"  # 2.97M
-    # ).to(config['device'])
-    
-    
-    # model = LightMUNet(
-    #     spatial_dims=3,
-    #     init_filters=32,
-    #     in_channels=4,
-    #     out_channels=4,
-    #     dropout_prob=0.2,
-    #     norm=("GROUP", {"num_groups": 8}),
-    #     blocks_down=(1, 1, 2, 4),
-    #     blocks_up=(1, 1, 1)
-    # ).to(config['device'])
     
     model.load_state_dict(checkpoint['model_state_dict'])
     
