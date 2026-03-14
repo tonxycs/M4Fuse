@@ -18,13 +18,13 @@ def main():
 
     parser.add_argument('--data_mode', type=str, default='split_from_full', choices=['split_from_full', 'independent'],
                         help='Dataset mode: split from full or independent folders')
-    parser.add_argument('--full_data_dir', type=str, default='./22666_code/Data/BraTS2021',
+    parser.add_argument('--full_data_dir', type=str, default='./Data/BraTS2021',
                         help='Path to full dataset (for split mode)')
-    parser.add_argument('--train_dir', type=str, default='./22666_code/Data/BraTS2021_Train',
+    parser.add_argument('--train_dir', type=str, default='./Data/BraTS2021_Train',
                         help='Path to train dataset (for independent mode)')
-    parser.add_argument('--valid_dir', type=str, default='./22666_code/Data/BraTS2021_Valid',
+    parser.add_argument('--valid_dir', type=str, default='./Data/BraTS2021_Valid',
                         help='Path to validation dataset (for independent mode)')
-    parser.add_argument('--result_dir', type=str, default='./22666_code/BarTS2021-M4FuseTiny',
+    parser.add_argument('--result_dir', type=str, default='./BarTS2021-M4FuseTiny',
                         help='Directory to save results')
     
 
