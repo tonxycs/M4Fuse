@@ -1,6 +1,6 @@
 #!/bin/bash
 
-nohup python ./T19.py
+# nohup python ./T19.py
 
 
 
