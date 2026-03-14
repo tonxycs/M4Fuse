@@ -59,16 +59,14 @@ BarTS2021/
 
 
 # Models
-@ **e.g.Tiny-0.29M and Spe. Seeing M4Fuse.py**
+ *e.g.Tiny-0.29M and Spe. Seeing M4Fuse.py*
 
-$
 model = M4Fuse(
     num_classes=4,
     input_channels=4,
     c_list = [16, 32, 48, 64, 96, 128], 
     modalities=1
 ).to(config['device'])
-$
 
 # Use
  2.According to Ours ->  bash ./Run_config.sh 
