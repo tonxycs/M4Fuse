@@ -2,7 +2,7 @@
 
 # Dataset
 
-Get BraTS 2019 and BraTS 2021 dataset [here](https://www.med.upenn.edu/cbica/brats2019/data.html) and [there](https://www.synapse.org/Synapse:syn25829067/wiki/610863)
+*Get BraTS 2019 and BraTS 2021 dataset [here](https://www.med.upenn.edu/cbica/brats2019/data.html) and [there](https://www.synapse.org/Synapse:syn25829067/wiki/610863)*
 
 *For information on the data structure, access paths, and other details, please refer to the following:*
 
