@@ -1,4 +1,4 @@
- 1.About M4Fuse:
+# About M4Fuse: *An ingenious design that is ultra-lightweight, highly accurate, and robust*
 
 # Dataset
 
