@@ -49,4 +49,19 @@ nibabel = 5.2.1
 
 scipy = 1.10.1
 
+## Cite M4Fuse
+
+If you find this work useful or interesting, please consider citing the following BibTeX entry.
+
+```
+@InProceedings{Zhou_2026_CVPR,
+    author    = {Zhou, Meihua and Tong, Xinyu and Yang, Li},
+    title     = {M{\textasciicircum}4Fuse: Lightweight State-Space MoE with a Cross-Scale Gating Bridge for Brain Tumor Segmentation},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings},
+    month     = {June},
+    year      = {2026},
+    pages     = {5368-5377}
+}
+```
+
 ***Notes: For urgent citation, usage, or further assistance, please feel free to contact me [tonxycs@gmail.com] without any hesitation. You are very welcome!***
