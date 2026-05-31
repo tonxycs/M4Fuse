@@ -1,8 +1,7 @@
 # About M4Fuse: *An ingenious design that is ultra-lightweight, highly accurate, and robust*
 
 Our papers: 
-Preprint Version:
-IEEE/CVF Version: https://openaccess.thecvf.com/content/CVPR2026F/papers/Zhou_M4Fuse_Lightweight_State-Space_MoE_with_a_Cross-Scale_Gating_Bridge_for_CVPRF_2026_paper.pdf
+Preprint Version: https://arxiv.org/pdf/2605.02444
 
 # Dataset
 
